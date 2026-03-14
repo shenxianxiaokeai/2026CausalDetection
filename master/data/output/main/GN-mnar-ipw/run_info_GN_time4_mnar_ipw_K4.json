@@ -1,0 +1,53 @@
+{
+  "data_path": "data/input/GN/corrected\\GN_time4_mnar_ipw.pt",
+  "K": 4,
+  "N": 128,
+  "L": 2,
+  "layer_types": [
+    "gaussian",
+    "gaussian"
+  ],
+  "A_stats": [
+    {
+      "layer": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.0972900390625,
+      "dtype": "float32"
+    },
+    {
+      "layer": 1,
+      "min": 0.0,
+      "max": 2.002998113632202,
+      "mean": 0.15924100577831268,
+      "dtype": "float32"
+    }
+  ],
+  "device": "cpu",
+  "configuration": {
+    "rseed": 0,
+    "device": "cpu",
+    "K": 4,
+    "num_iter": 2000,
+    "learning_rate": 0.1,
+    "tolerance": 1e-08,
+    "verbose": false,
+    "N_seeds": 20,
+    "lambda1": "5e-3",
+    "lambda2": 0.01,
+    "use_variation": true,
+    "use_center_loss": true,
+    "use_sparse_loss": true,
+    "omega_mode": "uniform",
+    "save_shared_adj": true,
+    "save_delta": true,
+    "save_Q": true,
+    "save_B": true
+  },
+  "final_loss": 0.0021966304630041122,
+  "loss_corr": 2.784190292004496e-05,
+  "loss_sp": 0.17236757278442383,
+  "loss_cent": 0.13069507479667664,
+  "timestamp": "2026-03-11 21:22:19",
+  "no_hessian": true
+}

@@ -1,0 +1,58 @@
+{
+  "data_path": "data/input/LFR/corrected_time7\\LFR_time7_ipw_105.pt",
+  "K": 36,
+  "N": 1000,
+  "L": 2,
+  "layer_types": [
+    "gaussian",
+    "gaussian"
+  ],
+  "A_stats": [
+    {
+      "layer": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.015383999794721603,
+      "dtype": "float32"
+    },
+    {
+      "layer": 1,
+      "min": 0.0,
+      "max": 1.0031949281692505,
+      "mean": 0.015384000726044178,
+      "dtype": "float32"
+    }
+  ],
+  "device": "cuda",
+  "configuration": {
+    "rseed": 0,
+    "device": "cuda",
+    "K": 36,
+    "num_iter": 1,
+    "learning_rate": 0.001,
+    "tolerance": 1e-08,
+    "verbose": true,
+    "N_seeds": 20,
+    "lambda1": 0.001,
+    "lambda2": 0.01,
+    "use_variation": true,
+    "use_center_loss": true,
+    "use_sparse_loss": true,
+    "omega_mode": "uniform",
+    "diffusion_alpha": 0.15,
+    "obs_weight": 0.5,
+    "use_ipw_view": true,
+    "embedding_norm": true,
+    "kmeans_n_init": 20,
+    "save_shared_adj": true,
+    "save_delta": true,
+    "save_Q": true,
+    "save_B": true
+  },
+  "final_loss": 0.00015921091835480183,
+  "loss_corr": 1.6155128944326555e-18,
+  "loss_sp": 0.02644188702106476,
+  "loss_cent": 0.013276902958750725,
+  "timestamp": "2026-03-14 03:13:06",
+  "no_hessian": true
+}

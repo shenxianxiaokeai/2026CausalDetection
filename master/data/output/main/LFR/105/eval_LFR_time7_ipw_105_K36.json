@@ -1,0 +1,10 @@
+{
+  "num_nodes": 1000,
+  "num_classes_true": 36,
+  "num_classes_pred": 36,
+  "NMI": 0.993997610145806,
+  "ARI": 0.9916733805121601,
+  "Modularity_layer_0": 0.46332013641960135,
+  "Modularity_layer_1": 0.46377162605924416,
+  "Modularity_mean": 0.46354588123942275
+}

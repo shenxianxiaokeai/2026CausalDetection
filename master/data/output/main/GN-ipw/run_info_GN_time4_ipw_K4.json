@@ -1,0 +1,58 @@
+{
+  "data_path": "data/input/GN/corrected\\GN_time4_ipw.pt",
+  "K": 4,
+  "N": 128,
+  "L": 2,
+  "layer_types": [
+    "gaussian",
+    "gaussian"
+  ],
+  "A_stats": [
+    {
+      "layer": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.15625,
+      "dtype": "float32"
+    },
+    {
+      "layer": 1,
+      "min": 0.0,
+      "max": 11.851851463317871,
+      "mean": 1.0032436847686768,
+      "dtype": "float32"
+    }
+  ],
+  "device": "cuda",
+  "configuration": {
+    "rseed": 0,
+    "device": "cuda",
+    "K": 36,
+    "num_iter": 1,
+    "learning_rate": 0.0005,
+    "tolerance": 1e-08,
+    "verbose": true,
+    "N_seeds": 20,
+    "lambda1": 0.05,
+    "lambda2": 0.01,
+    "use_variation": true,
+    "use_center_loss": true,
+    "use_sparse_loss": true,
+    "omega_mode": "uniform",
+    "diffusion_alpha": 0.35,
+    "obs_weight": 0.4,
+    "use_ipw_view": true,
+    "embedding_norm": true,
+    "kmeans_n_init": 20,
+    "save_shared_adj": true,
+    "save_delta": true,
+    "save_Q": true,
+    "save_B": true
+  },
+  "final_loss": 0.04982804134488106,
+  "loss_corr": 2.054408798044953e-16,
+  "loss_sp": 0.7459539175033569,
+  "loss_cent": 1.2530347108840942,
+  "timestamp": "2026-03-14 04:10:55",
+  "no_hessian": true
+}
